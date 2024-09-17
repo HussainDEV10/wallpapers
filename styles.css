@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#background-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.background-item {
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.background-item img {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+#editor {
+    display: none;
+    margin-top: 20px;
+}
+
+#canvas-container {
+    position: relative;
+    display: inline-block;
+}
+
+#text-input {
+    display: block;
+    margin: 20px auto;
+}
+
+#save-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}

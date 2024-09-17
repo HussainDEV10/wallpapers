@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الخلفيات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>معرض الخلفيات</h1>
+    <div id="background-gallery">
+        <div class="background-item">
+            <img src="background1.jpg" alt="خلفية 1">
+        </div>
+        <div class="background-item">
+            <img src="background2.jpg" alt="خلفية 2">
+        </div>
+        <!-- يمكنك إضافة المزيد من الخلفيات هنا -->
+    </div>
+
+    <div id="editor">
+        <div id="canvas-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <input type="text" id="text-input" placeholder="أدخل النص هنا">
+        <button id="save-btn">حفظ الصورة</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
